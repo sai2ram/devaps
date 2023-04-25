@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping(value="/hello")
 	public String getMsg() {
-		return "Welcome Spring boot";
+		return "Welcome Spring boot Rest Api";
 	}
 	
 }
